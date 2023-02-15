@@ -48,6 +48,7 @@ namespace BulkyBookWeb.Controllers
             {
                 return NotFound();
             }
+            //var categoryFirstOrDefault = _db.Categories.FirstOrDefault(x => x.Id == id);
             var categoryFromDb = _db.Categories.Find(id);
             if (categoryFromDb == null)
             {
