@@ -11,7 +11,7 @@ namespace BulkyBook.DataAccess.Repository.IRepository
     {
         //la logica di Update dipende dal tipo
         void Update(Category category);
-        void Save();
+        
 
     }
 }
